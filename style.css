@@ -1,0 +1,197 @@
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body {
+    height: 100%;
+    background-image: url("assets/dot.png");
+    padding-left: 50px;
+}
+
+canvas {
+    display: block;
+    width: 60% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    padding-bottom: none;
+    margin-right: 80px;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+    padding: 102px;
+    margin-right: -99px;
+}
+
+#heading {
+    width: 100%;
+    height: 150px; /* Adjust this value as needed */
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#js-column {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.LLA{
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+/* Start of the Rainbow Text code reference from We Learn Code website: https://welearncode.com/rainbow-text/ */
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+/* End of the Rainbow Text code reference from We Learn Code website: https://welearncode.com/rainbow-text/ */
+}
+
+.LLA2{
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#page {
+    position: absolute;
+    z-index: 500;
+    margin-top: 70%;
+    max-width: 100%;
+    /* somehow the code line below makes the #page content does not overlap the header content */
+    height: 10px; 
+    
+  }
+
+  #content {
+ 
+    width: 80%;
+    padding-left: 20px;
+    
+  }
+
+  .stand {
+    font-family: "Space Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3em;
+    text-align: left;
+  }
+
+
+
+  .stand2 {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: left;
+  }
+
+  .number1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+    color:palevioletred;
+    line-height: normal;
+  }
+
+  .number2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+    color:khaki;
+    line-height: normal;
+  }
+
+  .number3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+    color:skyblue;
+    line-height: normal;
+  }
+
+  #text {
+    line-height: 2em;
+    column-count: 3;
+    column-gap: 7%;
+    font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+/* Start of the CSS code reference from the Sound_Header_Template posted on MS Team by professor Hudak */
+  img {
+    width: 100%;
+    height: 100%;
+    }
+    .grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    position: flex;
+    }
+    .w3-half img{
+    margin-bottom:-6px;
+    margin-top:16px;
+    opacity:0.8;
+    cursor:pointer
+    }
+    .w3-half img:hover{
+    opacity:1
+    }
+    .container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+        /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    }
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+/* End of the CSS code reference from the Sound_Header_Template posted on MS Team by professor Hudak */
+
+.footer{
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color:darkgrey;
+    z-index: 500;
+    text-align: right;
+}
+
